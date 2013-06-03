@@ -1,0 +1,27 @@
+// onerPts.cpp: implementation of the ConerPts class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "Match.h"
+#include "onerPts.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+ConerPts::ConerPts()
+{
+
+}
+
+ConerPts::~ConerPts()
+{
+
+}

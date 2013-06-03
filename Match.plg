@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Match - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\zhao\AppData\Local\Temp\RSPB72.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Match.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\实验结果\所有实验\图像配准\Match\MainFrm.cpp"
+"F:\实验结果\所有实验\图像配准\Match\Match.cpp"
+"F:\实验结果\所有实验\图像配准\Match\MatchDoc.cpp"
+"F:\实验结果\所有实验\图像配准\Match\Matching.cpp"
+"F:\实验结果\所有实验\图像配准\Match\MatchView.cpp"
+"F:\实验结果\所有实验\图像配准\Match\MatchView1.cpp"
+]
+Creating command line "cl.exe @C:\Users\zhao\AppData\Local\Temp\RSPB72.tmp" 
+Creating temporary file "C:\Users\zhao\AppData\Local\Temp\RSPB73.tmp" with contents
+[
+ml.lib cv.lib highgui.lib cxcore.lib cvcam.lib ipl.lib libgsl.a /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Match.pdb" /debug /machine:I386 /out:"Debug/Match.exe" /pdbtype:sept 
+".\Debug\FeatherPts.obj"
+".\Debug\folder_dialog.obj"
+".\Debug\HarrisDlg.obj"
+".\Debug\imgfeatures.obj"
+".\Debug\ImportFeapt.obj"
+".\Debug\kdtree.obj"
+".\Debug\MainFrm.obj"
+".\Debug\Match.obj"
+".\Debug\MatchDoc.obj"
+".\Debug\Matching.obj"
+".\Debug\MatchView.obj"
+".\Debug\MatchView1.obj"
+".\Debug\minpq.obj"
+".\Debug\Mybar.obj"
+".\Debug\OpenImageDlg.obj"
+".\Debug\Perference.obj"
+".\Debug\RegistrationDlg.obj"
+".\Debug\scbarg.obj"
+".\Debug\sift.obj"
+".\Debug\SiftDlg.obj"
+".\Debug\sizecbar.obj"
+".\Debug\StdAfx.obj"
+".\Debug\STMatch.obj"
+".\Debug\SubPixel.obj"
+".\Debug\Utility.obj"
+".\Debug\utils.obj"
+".\Debug\xform.obj"
+".\Debug\Match.res"
+]
+Creating command line "link.exe @C:\Users\zhao\AppData\Local\Temp\RSPB73.tmp"
+<h3>Output Window</h3>
+Compiling...
+MainFrm.cpp
+f:\实验结果\所有实验\图像配准\match\matching.h(11) : fatal error C1083: Cannot open include file: 'ipl.h': No such file or directory
+Match.cpp
+f:\实验结果\所有实验\图像配准\match\matching.h(11) : fatal error C1083: Cannot open include file: 'ipl.h': No such file or directory
+MatchDoc.cpp
+f:\实验结果\所有实验\图像配准\match\matching.h(11) : fatal error C1083: Cannot open include file: 'ipl.h': No such file or directory
+Matching.cpp
+f:\实验结果\所有实验\图像配准\match\matching.h(11) : fatal error C1083: Cannot open include file: 'ipl.h': No such file or directory
+MatchView.cpp
+f:\实验结果\所有实验\图像配准\match\matching.h(11) : fatal error C1083: Cannot open include file: 'ipl.h': No such file or directory
+MatchView1.cpp
+f:\实验结果\所有实验\图像配准\match\matching.h(11) : fatal error C1083: Cannot open include file: 'ipl.h': No such file or directory
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+Match.exe - 6 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
